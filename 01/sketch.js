@@ -21,7 +21,7 @@ function setup (){
     raggio = wcm / 200;
     r2 = raggio * raggio;
     f2 = 3.14 * r2;
-    ml = 150;
+    ml = 60;
     hgt = ml / f2;
     hgt2 = pixelDensity() / 0.39;
     pxh = hgt * hgt2 * 2;
