@@ -24,7 +24,7 @@ function setup (){
     ml = 90;
     hgt = ml / f2;
     hgt2 = pixelDensity() / 0.39;
-    pxh = hgt * hgt2 * 2;
+    pxh = hgt * hgt2 * 4;
     console.log(`Size: ${pxh.toFixed(2)}`);
     
 }
